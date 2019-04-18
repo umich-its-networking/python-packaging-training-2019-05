@@ -1,6 +1,5 @@
 ---
 title: Django Application vs. Python Package
-permalink: /overview/
 ---
 
 Both are a means for distributing software. Functionally, a Django application has some extra features:

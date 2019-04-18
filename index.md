@@ -1,6 +1,5 @@
 ---
 title: Python Packaging Training
-layout: page
 ---
 
 ## Requirements
@@ -17,7 +16,7 @@ layout: page
 ## Overview
 
 - [Introduction]({% link introduction.md %})
-- [Django package vs. Python libraries]({% link overview.md %})
-- [Package management]({% link packages/management.md %})
-- [Writing a Django package]({% link packages/development.md %})
-- [Distributing a package]({% link packages/distribution.md %})
+- [Django package vs. Python libraries]({{ "/overview" | relative_url }})
+- [Package management]({{ "/packages/management" | relative_url }})
+- [Writing a Django package]({{ "/packages/development" | relative_url }})
+- [Distributing a package]({{ "/packages/distribution" | relative_url }})
