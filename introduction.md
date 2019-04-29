@@ -29,4 +29,4 @@ Examples:
 It sometimes makes sense for a program to be both an application *and* a library. For example, if you made a wrapper to simplify using a web service, it might only take a little bit more work to add a command-line interface that allows you to quickly and conveniently perform common tasks. But beware, as a large application that is tightly coupled to methods you want to share as a library might be a sign that some refactoring is in order.
 
 ***
-Next, we will examine tools and strategies for sharing programs as applications, sharing them as libraries, and how those tools can be used together in harmony.
+Next, we will examine tools and strategies for sharing programs as [applications](./applications.md), sharing them as [libraries](./libraries.md), and how those tools can be used together in harmony.
