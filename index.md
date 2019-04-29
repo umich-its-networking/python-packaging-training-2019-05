@@ -15,7 +15,7 @@ title: Python Packaging Training
 
 ## Overview
 
-- [Introduction]({% link introduction.md %})
+- [Introduction]({{ introduction.md | relative_url }})
 - [virtualenv]()
 - [pip install -e .]()
 - [Django package vs. Python libraries]({{ "/overview" | relative_url }})
