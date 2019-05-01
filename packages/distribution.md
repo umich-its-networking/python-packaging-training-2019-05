@@ -46,7 +46,16 @@ python -m twine upload dist/*
 ```
 
 ### Privately Distribute Your Package
-TODO - Will we eventually have your own repository? If not, how else should we share our packages? GitLab CI build artifacts?
+If you think your package is only suited to internal distribution, the simplest option is to add an [annotated tag](https://docs.gitlab.com/ee/university/training/topics/tags.html) to your repository. 
+```
+git tag -a v1.0.0 -m "Message briefly describing version"
+git push origin v1.0.0
+```
+
+Anyone with access to your repository can now [add it to their Pipfile](https://docs.pipenv.org/en/latest/basics/#a-note-about-vcs-dependencies):
+```
+pipenv install -e git@gitlab.umich.edu:<group>/<project>.git@v1.0.0#egg=<package_name>
+```
 
 ### Installing a Package
 Finally, you or your coworkers can now use your package by...
