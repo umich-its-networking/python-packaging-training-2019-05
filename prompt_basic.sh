@@ -1,2 +1,3 @@
 unset PROMPT_COMMAND
+export VIRTUAL_ENV_DISABLE_PROMPT=
 export PS1='$ '
