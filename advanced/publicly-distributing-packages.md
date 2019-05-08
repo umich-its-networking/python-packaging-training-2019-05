@@ -1,5 +1,5 @@
 ---
-title: Distributing a Package Through PyPi
+title: Publicly Distributing a Package Through PyPi
 ---
 
 This tutorial follows the [packaging web application guide]({{ "/advanced/packaging-web-applications" | relative_url }}) and shows how a distribution can be uploaded to PyPi for public use

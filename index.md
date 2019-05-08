@@ -23,5 +23,5 @@ title: Python Packaging Training
 - [TODO: pip install -e .]({{ "/pip-install" | relative_url }})
 - [Versioning]({{ "/versioning" | relative_url }})
 - [(Advanced) Packaging a Web Application]({{ "/advanced/packaging-web-applications" | relative_url }})
-- [(Advanced) Distributing a package via PyPi]({{ "/advanced/distributing-packages" | relative_url }})
-- [Distributing a package]({{ "/packages/distribution" | relative_url }})
+- [(Advanced) Publicly Distributing a Package via PyPi]({{ "/advanced/publicly-distributing-packages" | relative_url }})
+- [(Advanced) Privately Distributing a Package]({{ "/advanced/privately-distributing-packages" | relative_url }})
