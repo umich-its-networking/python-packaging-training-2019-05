@@ -89,7 +89,7 @@ drwxr-xr-x  12 jonathoy  1410742483   384 May  8 13:56 polls
 
 ## Create the setup.py file
 
-The setup.py file describes how to build and install the app.
+The setup.py file contains metadata on how to build and install the app
 
 ```terminal
 $ cp ../content/setup.py ./
