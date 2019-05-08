@@ -27,7 +27,9 @@ Enter [semantic versioning](https://semver.org/).
 > Given a version number MAJOR.MINOR.PATCH, increment the:
 
 > MAJOR version when you make incompatible API changes,
+
 > MINOR version when you add functionality in a backwards-compatible manner, and
+
 > PATCH version when you make backwards-compatible bug fixes.
 
 Following these rules will increase your team's trust in your releases, and tools like Pipenv take advantage of *semver* by including features to lock packages to e.g. the latest PATCH or MINOR version.
