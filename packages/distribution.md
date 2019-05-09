@@ -5,7 +5,7 @@ title: Distributing Your Package
 # Building Distribution Files
 Now that your library is configured with a `setup.py`, you can generate package files to share with others:
 
-```python
+```
 python setup.py sdist
 ```
 
@@ -48,13 +48,13 @@ python -m twine upload dist/*
 ### Privately Distribute Your Package
 If you think your package is only suited to internal distribution, the simplest option is to add an [annotated tag](https://docs.gitlab.com/ee/university/training/topics/tags.html) to your repository. 
 ```
-git tag -a v1.0.0 -m "Message briefly describing version"
-git push origin v1.0.0
+git tag -a v0.1.0 -m "Message briefly describing version"
+git push origin v0.1.0
 ```
 
 Anyone with access to your repository can now [add it to their Pipfile](https://docs.pipenv.org/en/latest/basics/#a-note-about-vcs-dependencies):
 ```
-pipenv install -e git@gitlab.umich.edu:<group>/<project>.git@v1.0.0#egg=<package_name>
+pipenv install -e git@gitlab.umich.edu:<group>/<project>.git@v0.1.0#egg=<package_name>
 ```
 
 ### Installing a Package

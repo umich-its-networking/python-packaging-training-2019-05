@@ -83,7 +83,7 @@ setuptools 40.6.2
 
 As you can see, we're now working with a clean slate. We can follow these steps for any project to have an isolated environment with exactly the Python and package versions we need.
 
-If we run `exit`, any packages we install in this `venv` will disappear until we run `source ./venv/bin/activate` again.
+If we run `deactivate`, any packages we install in this `venv` will disappear until we run `source ./venv/bin/activate` again.
 
 So far, we have learned the basics of tools that allow yourself and others to manage and use the dependencies of your project in a way that is isolated from all other projects.
 

@@ -101,8 +101,8 @@ Collecting simplejson==3.16.0 (from -r requirements.txt (line 1))
 Collecting protobuf (from -r requirements.txt (line 2))
   Downloading https://files.pythonhosted.org/packages/d7/08/a316e74d41a1f3d606dfc3b71cc068354e8b9a0232f46bc098aa50b37116/protobuf-3.7.1-cp37-cp37m-macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl (1.3MB)
     100% |████████████████████████████████| 1.3MB 15.9MB/s
-Requirement already satisfied: setuptools in /usr/local/lib/python3.7/site-packages (from protobuf->-r requirements.txt (line 2)) (40.8.0)
-Requirement already satisfied: six>=1.9 in /usr/local/lib/python3.7/site-packages (from protobuf->-r requirements.txt (line 2)) (1.11.0)
+Requirement already satisfied: setuptools in /usr/local/lib/python3.7/site-packages (from protobuf-≥-r requirements.txt (line 2)) (40.8.0)
+Requirement already satisfied: six≥1.9 in /usr/local/lib/python3.7/site-packages (from protobuf-≥-r requirements.txt (line 2)) (1.11.0)
 Installing collected packages: simplejson, protobuf
   Found existing installation: simplejson 3.0.0
     Uninstalling simplejson-3.0.0:

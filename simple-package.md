@@ -70,12 +70,12 @@ if __name__ == "__main__":
 Now that we have made a simple package, `pip` can install it from the current directory:
 
 ```terminal
-(venv) $ pip install .
+(venv) $ pip install -e .
 Processing /Users/jlost/Projects/training/python-packaging-training-2019-05/package-training
 Collecting simplejson==3.0.0 (from helloworld==0.1.0)
 Collecting protobuf (from helloworld==0.1.0)
   Using cached https://files.pythonhosted.org/packages/d7/08/a316e74d41a1f3d606dfc3b71cc068354e8b9a0232f46bc098aa50b37116/protobuf-3.7.1-cp37-cp37m-macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl
-Collecting six>=1.9 (from protobuf->helloworld==0.1.0)
+Collecting six≥1.9 (from protobuf->helloworld==0.1.0)
   Downloading https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
 Requirement already satisfied: setuptools in ./venv/lib/python3.7/site-packages (from protobuf->helloworld==0.1.0) (40.6.2)
 Installing collected packages: simplejson, six, protobuf, helloworld
@@ -117,4 +117,30 @@ We can also execute it as a module!
 Hello World
 ```
 
-We managed to create a library with a single method, `greet`, which can also be used as a command line application. In doing so you learned about `pip`, `requirements.txt`, `setup.py`, `venv` and package structure. 
+Because we used the `-e` flag in `pip install -e`, changes to your files will immediately take effect in your environment. Try making a minor change to `hello.py`:
+
+```terminal
+(venv) $ $EDITOR helloworld/hello.py
+```
+
+`hello.py`:
+
+```python
+def greet():
+    print('Sup World?') # Changed string
+
+def main(args=None):
+    greet()
+
+if __name__ == "__main__":
+    main()
+```
+
+Now we run it again to compare the output:
+
+```terminal
+(venv) $ helloworld
+Sup World
+```
+
+We managed to create a library with a single method, `greet`, which can also be used as a command line application. In doing so you learned about `pip`, `requirements.txt`, `setup.py`, `venv` and package structure. Now move on to the [next section, Pipenv]({{ "/pipenv" | relative_url }}).

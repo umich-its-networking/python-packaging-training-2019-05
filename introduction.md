@@ -11,31 +11,4 @@ $ cd package-training
 ```
 Note that Windows users may need to adapt some commands to their shell of choice.
 
-Next: [pip install]({{ "/pip-install" | relative_url }})
-
-## Recon: Application or Library?
-
-### Applications...
-* Are run externally from a command line, executable, or web server.
-* Typically have a main entry point (`__main__`)
-
-Examples:
-* A full Django project
-* An ETL or batch job
-* A command-line tool
-
-### Libraries...
-* Are used from a programming language
-* Often do not have a main entry point, and if it does have one, it is not the main purpose of the codebase
-
-Examples:
-* A wrapper to simplify the use of a web service
-* A module with methods codifying business rules that should be shared with other developers in your unit
-* A plugin that will help your coworkers set up single sign-on in your web framework of choice
-* A Django App (distinct from a project)
-
-### Or both?!
-It sometimes makes sense for a program to be both an application *and* a library. For example, if you made a wrapper to simplify using a web service, it might only take a little bit more work to add a command-line interface that allows you to quickly and conveniently perform common tasks. But beware, as a large application that is tightly coupled to methods you want to share as a library might be a sign that some refactoring is in order.
-
-***
-Next, we will examine tools and strategies for sharing programs as [applications](./applications.md), sharing them as [libraries](./libraries.md), and how those tools can be used together in harmony.
+[Next: pip install]({{ "/pip-install" | relative_url }})
