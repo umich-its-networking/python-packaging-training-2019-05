@@ -9,7 +9,13 @@ $ git tag -a v1.0.0 -m "Message briefly describing version"
 $ git push origin v1.0.0
 ```
 
-Anyone with access to your repository can now [add it to their Pipfile](https://docs.pipenv.org/en/latest/basics/#a-note-about-vcs-dependencies):
+Anyone with access to your repository can now [pip install](https://pip.pypa.io/en/stable/reference/pip_install/#vcs-support) it:
+
+```terminal
+$ pip install git://gitlab.umich.edu/<project>.git@v1.0.0
+```
+
+Or alternatively [add it to their Pipfile](https://docs.pipenv.org/en/latest/basics/#a-note-about-vcs-dependencies):
 
 ```terminal
 $ pipenv install -e git@gitlab.umich.edu:<group>/<project>.git@v1.0.0#egg=<package_name>

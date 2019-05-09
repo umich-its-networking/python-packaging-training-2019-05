@@ -116,7 +116,7 @@ drwxr-xr-x  12 jonathoy  1410742483   384 May  8 13:56 polls
 -rw-r--r--   1 jonathoy  1410742483  1203 May  8 14:02 setup.py
 ```
 
-## Try creating a distributable package
+## Create a distributable package
 
 Will package the application up based on the configuration in setup.py
 
@@ -187,7 +187,7 @@ total 16
 -rw-r--r--  1 jonathoy  1410742483  5789 May  8 14:12 django-polls-0.1.tar.gz
 ```
 
-## Using the package
+## Install the package
 
 ```terminal
 $ pip install --user dist/django-polls-0.1.tar.gz
