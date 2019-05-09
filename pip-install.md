@@ -3,6 +3,7 @@ title: Pip Basics
 ---
 
 Let's start by taking a look at your environment:
+
 ```terminal
 $ which pip
 /usr/local/bin/pip
@@ -13,10 +14,12 @@ $ which pip3
 $ pip3 --version
 pip 19.0.2 from /usr/local/lib/python3.7/site-packages/pip (python 3.7)
 ```
+
 This is my `pip` installation. There are many like it, but this one is mine. If you also have `pip` as well as `pip3`, you should use `pip3` in this section.
 
 If you happen to be missing `pip`, try accessing it via:
-```
+
+```terminal
 $ python -m pip --version
 pip 18.0 from /usr/local/lib/python2.7/site-packages/pip (python 2.7)
 $ python3 -m pip --version
