@@ -110,8 +110,3 @@ recursive-include polls/templates *
 ```
 
 That's that basic structure that we need to create a package! If we want to share it with others, [we should build it as a distribution...]({{ "/advanced/creating-distributable-django-package" | relative_url }})
-
-### References
-
-- [Django Project - How to write reusable apps](https://docs.djangoproject.com/en/2.2/intro/reusable-apps/)
-- [Official Setuptools Documentation](https://setuptools.readthedocs.io/en/latest/)
