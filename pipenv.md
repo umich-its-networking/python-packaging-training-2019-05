@@ -204,7 +204,7 @@ Locking [packages] dependencies…
 Updated Pipfile.lock (ad21a8)!
 ```
 
-Our `Pipfile.lock` is empty once more. 
+Our `Pipfile.lock` is empty once more.
 
 ```terminal
 $ pipenv install -e .
@@ -237,3 +237,5 @@ There are two ways you can use your virtual environment:
 $ pipenv run helloworld
 Sup World
 ```
+
+Now that we have an idea of how we can package and install libaries, we can look at how the implementation differs in a [Django package]({{ "/advanced/packaging-web-applications" | relative_url }}).

@@ -20,3 +20,7 @@ Or alternatively [add it to their Pipfile](https://docs.pipenv.org/en/latest/bas
 ```terminal
 $ pipenv install -e git@gitlab.umich.edu:<group>/<project>.git@v1.0.0#egg=<package_name>
 ```
+
+Note that this may be easier said than done, since you will likely encounter some issues with authentication.
+
+For information relating to Gitlab and SSH keys, see [this](https://docs.gitlab.com/ee/ssh/README.html#gitlab-and-ssh-keys) link

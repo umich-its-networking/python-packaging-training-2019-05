@@ -12,11 +12,11 @@ title: Python Packaging Training
 - [Introduction]({{ "/introduction" | relative_url }})
 - [pip install]({{ "/pip-install" | relative_url }})
 - [virtualenv]({{ "/venv" | relative_url }})
-- [Pipenv]({{ "/pipenv" | relative_url }})
 - [A Simple Package]({{ "/simple-package" | relative_url }})
-- [Django package vs. Python libraries]({{ "/overview" | relative_url }})
+- [Pipenv]({{ "/pipenv" | relative_url }})
 
 ## Advanced
 - [Packaging a Web Application]({{ "/advanced/packaging-web-applications" | relative_url }})
+- [Creating a Distributable Django Package]({{ "/advanced/creating-distributable-django-package" | relative_url }})
 - [(Optional) Publicly Distributing a Package via PyPi]({{ "/advanced/publicly-distributing-packages" | relative_url }})
 - [(Optional) Privately Distributing a Package]({{ "/advanced/privately-distributing-packages" | relative_url }})

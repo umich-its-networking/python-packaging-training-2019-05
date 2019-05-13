@@ -1,16 +1,12 @@
 ---
-title: Publicly Distributing a Package Through PyPi
+title: Publicly Distributing a Package Through PyPI
 ---
 
-This tutorial follows the [packaging web application guide]({{ "/advanced/packaging-web-applications" | relative_url }}) and shows how a distribution can be uploaded to PyPi for public use
+PyPI is the official Python package repository. If we want to first experiment with uploading to a test repository so we don't affect the main index, we can push instead to [test.pypi](https://test.pypi.org/)
 
-## Upload to Test PyPi for Experimentation Purposes
+To do this, first you will need to create an account for [Test PyPi](https://test.pypi.org/account/register/)
 
-Uploading to Test PyPi won't affect the real index, since its repository is separate from PyPi
-
-1. Create an account for [Test PyPi](https://test.pypi.org/account/register/)
-
-2. Install Twine for interacting with PyPi
+There are several tools that allow you to interact with PyPI. For our purposes, we'll be using [Twine](https://github.com/pypa/twine):
 
 ```terminal
 $ python -m pip install --user --upgrade twine
@@ -70,7 +66,7 @@ Installing collected packages: tqdm, chardet, idna, certifi, urllib3, requests, 
 Successfully installed Pygments-2.4.0 bleach-3.1.0 certifi-2019.3.9 chardet-3.0.4 docutils-0.14 idna-2.8 pkginfo-1.5.0.1 readme-renderer-24.0 requests-2.21.0 requests-toolbelt-0.9.1 six-1.12.0 tqdm-4.31.1 twine-1.13.0 urllib3-1.24.3 webencodings-0.5.1
 ```
 
-3. Upload distribution(s) to Test PyPi
+Now we can upload the distribution(s) to Test PyPi:
 
 ```terminal
 $ python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
@@ -81,24 +77,30 @@ Uploading django-polls-0.1.tar.gz
 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10.3k/10.3k [00:00<00:00, 18.9kB/s]
 ```
 
-4. Try installing from Test PyPi
+.. and try to reinstall it now from the Test PyPI repository
 
 ```terminal
 $ pip install --index-url https://test.pypi.org/simple/ --no-deps django-polls
 ```
 
-## Upload to PyPi
+Notice that we have an argument for `--no-deps`. This prevents the package from pulling in any additional libraries by `django-polls`, since Test PyPI may not always have them
 
-1. Create an account for [PyPi](https://pypi.org/account/register/)
+## Upload to PyPI
 
-2. Upload distribution(s)
+When you're ready, perform the following steps to publish to the main repo:
+
+First create an account for [PyPI](https://pypi.org/account/register/). Your Test PyPI account won't work here
+
+Upload your distribution(s):
 
 ```terminal
 $ python -m twine upload dist/*
 ```
 
-3. Install from PyPi
+.. and install from PyPI
 
 ```terminal
 $ pip install django-polls
 ```
+
+Done! What if [I don't want to share my package publicly]({{ "/advanced/privately-distributing-packages" }})?
