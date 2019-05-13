@@ -31,30 +31,30 @@ Collecting pkginfo>=1.4.2 (from twine)
 Collecting requests-toolbelt!=0.9.0,>=0.8.0 (from twine)
   Downloading https://files.pythonhosted.org/packages/60/ef/7681134338fc097acef8d9b2f8abe0458e4d87559c689a8c306d0957ece5/requests_toolbelt-0.9.1-py2.py3-none-any.whl (54kB)
     100% |████████████████████████████████| 61kB 7.6MB/s
-Collecting chardet<3.1.0,>=3.0.2 (from requests!=2.15,!=2.16,>=2.5.0->twine)
+Collecting chardet<3.1.0,>=3.0.2 (from requests!=2.15,!=2.16,>=2.5.0-＞twine)
   Downloading https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl (133kB)
     100% |████████████████████████████████| 143kB 4.6MB/s
-Collecting idna<2.9,>=2.5 (from requests!=2.15,!=2.16,>=2.5.0->twine)
+Collecting idna<2.9,>=2.5 (from requests!=2.15,!=2.16,>=2.5.0-＞twine)
   Downloading https://files.pythonhosted.org/packages/14/2c/cd551d81dbe15200be1cf41cd03869a46fe7226e7450af7a6545bfc474c9/idna-2.8-py2.py3-none-any.whl (58kB)
     100% |████████████████████████████████| 61kB 12.1MB/s
-Collecting certifi>=2017.4.17 (from requests!=2.15,!=2.16,>=2.5.0->twine)
+Collecting certifi>=2017.4.17 (from requests!=2.15,!=2.16,>=2.5.0-＞twine)
   Downloading https://files.pythonhosted.org/packages/60/75/f692a584e85b7eaba0e03827b3d51f45f571c2e793dd731e598828d380aa/certifi-2019.3.9-py2.py3-none-any.whl (158kB)
     100% |████████████████████████████████| 163kB 4.0MB/s
-Collecting urllib3<1.25,>=1.21.1 (from requests!=2.15,!=2.16,>=2.5.0->twine)
+Collecting urllib3<1.25,>=1.21.1 (from requests!=2.15,!=2.16,>=2.5.0-＞twine)
   Downloading https://files.pythonhosted.org/packages/01/11/525b02e4acc0c747de8b6ccdab376331597c569c42ea66ab0a1dbd36eca2/urllib3-1.24.3-py2.py3-none-any.whl (118kB)
     100% |████████████████████████████████| 122kB 16.2MB/s
-Collecting Pygments (from readme-renderer>=21.0->twine)
+Collecting Pygments (from readme-renderer>=21.0-＞twine)
   Downloading https://files.pythonhosted.org/packages/6e/00/c5cb5fc7c047da4af049005d0146b3a961b1a25d9cefbbe24bf0882a11ad/Pygments-2.4.0-py2.py3-none-any.whl (882kB)
     100% |████████████████████████████████| 890kB 9.2MB/s
-Collecting six (from readme-renderer>=21.0->twine)
+Collecting six (from readme-renderer>=21.0-＞twine)
   Downloading https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
-Collecting docutils>=0.13.1 (from readme-renderer>=21.0->twine)
+Collecting docutils>=0.13.1 (from readme-renderer>=21.0-＞twine)
   Downloading https://files.pythonhosted.org/packages/36/fa/08e9e6e0e3cbd1d362c3bbee8d01d0aedb2155c4ac112b19ef3cae8eed8d/docutils-0.14-py3-none-any.whl (543kB)
     100% |████████████████████████████████| 552kB 11.4MB/s
-Collecting bleach>=2.1.0 (from readme-renderer>=21.0->twine)
+Collecting bleach>=2.1.0 (from readme-renderer>=21.0-＞twine)
   Downloading https://files.pythonhosted.org/packages/ab/05/27e1466475e816d3001efb6e0a85a819be17411420494a1e602c36f8299d/bleach-3.1.0-py2.py3-none-any.whl (157kB)
     100% |████████████████████████████████| 163kB 16.1MB/s
-Collecting webencodings (from bleach>=2.1.0->readme-renderer>=21.0->twine)
+Collecting webencodings (from bleach>=2.1.0-＞readme-renderer>=21.0-＞twine)
   Downloading https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl
 Installing collected packages: tqdm, chardet, idna, certifi, urllib3, requests, Pygments, six, docutils, webencodings, bleach, readme-renderer, pkginfo, requests-toolbelt, twine
   The script tqdm is installed in '/root/.local/bin' which is not on PATH.

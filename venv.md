@@ -47,8 +47,8 @@ drwxr-xr-x   6 jlost  UMROOT\Domain Users   204 May  8 10:23 ..
 -rwxr-xr-x   1 jlost  UMROOT\Domain Users   298 May  8 10:23 pip
 -rwxr-xr-x   1 jlost  UMROOT\Domain Users   298 May  8 10:23 pip3
 -rwxr-xr-x   1 jlost  UMROOT\Domain Users   298 May  8 10:23 pip3.7
-lrwxr-xr-x   1 jlost  UMROOT\Domain Users     7 May  8 10:23 python -> python3
-lrwxr-xr-x   1 jlost  UMROOT\Domain Users    22 May  8 10:23 python3 -> /usr/local/bin/python3
+lrwxr-xr-x   1 jlost  UMROOT\Domain Users     7 May  8 10:23 python -＞ python3
+lrwxr-xr-x   1 jlost  UMROOT\Domain Users    22 May  8 10:23 python3 -＞ /usr/local/bin/python3
 ```
 
 Interesting -- in `venv/bin` we have symbolic links from `python` to our system's `python3`, some `pip` files that are essentially shortcuts to a particular version of `pip`, and a script called `activate`. Let's try running `activate`.

@@ -143,27 +143,27 @@ creating django-polls-0.1/polls/static/polls
 creating django-polls-0.1/polls/templates
 creating django-polls-0.1/polls/templates/polls
 copying files to django-polls-0.1...
-copying LICENSE -> django-polls-0.1
-copying MANIFEST.in -> django-polls-0.1
-copying README.md -> django-polls-0.1
-copying setup.py -> django-polls-0.1
-copying django_polls.egg-info/PKG-INFO -> django-polls-0.1/django_polls.egg-info
-copying django_polls.egg-info/SOURCES.txt -> django-polls-0.1/django_polls.egg-info
-copying django_polls.egg-info/dependency_links.txt -> django-polls-0.1/django_polls.egg-info
-copying django_polls.egg-info/top_level.txt -> django-polls-0.1/django_polls.egg-info
-copying polls/__init__.py -> django-polls-0.1/polls
-copying polls/admin.py -> django-polls-0.1/polls
-copying polls/apps.py -> django-polls-0.1/polls
-copying polls/models.py -> django-polls-0.1/polls
-copying polls/tests.py -> django-polls-0.1/polls
-copying polls/urls.py -> django-polls-0.1/polls
-copying polls/views.py -> django-polls-0.1/polls
-copying polls/migrations/0001_initial.py -> django-polls-0.1/polls/migrations
-copying polls/migrations/__init__.py -> django-polls-0.1/polls/migrations
-copying polls/static/polls/style.css -> django-polls-0.1/polls/static/polls
-copying polls/templates/polls/detail.html -> django-polls-0.1/polls/templates/polls
-copying polls/templates/polls/index.html -> django-polls-0.1/polls/templates/polls
-copying polls/templates/polls/results.html -> django-polls-0.1/polls/templates/polls
+copying LICENSE -＞ django-polls-0.1
+copying MANIFEST.in -＞ django-polls-0.1
+copying README.md -＞ django-polls-0.1
+copying setup.py -＞ django-polls-0.1
+copying django_polls.egg-info/PKG-INFO -＞ django-polls-0.1/django_polls.egg-info
+copying django_polls.egg-info/SOURCES.txt -＞ django-polls-0.1/django_polls.egg-info
+copying django_polls.egg-info/dependency_links.txt -＞ django-polls-0.1/django_polls.egg-info
+copying django_polls.egg-info/top_level.txt -＞ django-polls-0.1/django_polls.egg-info
+copying polls/__init__.py -＞ django-polls-0.1/polls
+copying polls/admin.py -＞ django-polls-0.1/polls
+copying polls/apps.py -＞ django-polls-0.1/polls
+copying polls/models.py -＞ django-polls-0.1/polls
+copying polls/tests.py -＞ django-polls-0.1/polls
+copying polls/urls.py -＞ django-polls-0.1/polls
+copying polls/views.py -＞ django-polls-0.1/polls
+copying polls/migrations/0001_initial.py -＞ django-polls-0.1/polls/migrations
+copying polls/migrations/__init__.py -＞ django-polls-0.1/polls/migrations
+copying polls/static/polls/style.css -＞ django-polls-0.1/polls/static/polls
+copying polls/templates/polls/detail.html -＞ django-polls-0.1/polls/templates/polls
+copying polls/templates/polls/index.html -＞ django-polls-0.1/polls/templates/polls
+copying polls/templates/polls/results.html -＞ django-polls-0.1/polls/templates/polls
 Writing django-polls-0.1/setup.cfg
 creating dist
 Creating tar archive

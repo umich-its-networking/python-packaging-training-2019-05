@@ -75,9 +75,9 @@ Processing /Users/jlost/Projects/training/python-packaging-training-2019-05/pack
 Collecting simplejson==3.0.0 (from helloworld==0.1.0)
 Collecting protobuf (from helloworld==0.1.0)
   Using cached https://files.pythonhosted.org/packages/d7/08/a316e74d41a1f3d606dfc3b71cc068354e8b9a0232f46bc098aa50b37116/protobuf-3.7.1-cp37-cp37m-macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl
-Collecting six≥1.9 (from protobuf->helloworld==0.1.0)
+Collecting six≥1.9 (from protobuf-＞helloworld==0.1.0)
   Downloading https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
-Requirement already satisfied: setuptools in ./venv/lib/python3.7/site-packages (from protobuf->helloworld==0.1.0) (40.6.2)
+Requirement already satisfied: setuptools in ./venv/lib/python3.7/site-packages (from protobuf-＞helloworld==0.1.0) (40.6.2)
 Installing collected packages: simplejson, six, protobuf, helloworld
   Running setup.py install for helloworld ... done
 Successfully installed helloworld-0.1.0 protobuf-3.7.1 simplejson-3.0.0 six-1.12.0
