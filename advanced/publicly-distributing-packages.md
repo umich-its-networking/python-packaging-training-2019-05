@@ -4,7 +4,7 @@ title: Publicly Distributing a Package Through PyPi
 
 This tutorial follows the [packaging web application guide]({{ "/advanced/packaging-web-applications" | relative_url }}) and shows how a distribution can be uploaded to PyPi for public use
 
-## (Optional) Upload to Test PyPi for Experimentation Purposes
+## Upload to Test PyPi for Experimentation Purposes
 
 Uploading to Test PyPi won't affect the real index, since its repository is separate from PyPi
 

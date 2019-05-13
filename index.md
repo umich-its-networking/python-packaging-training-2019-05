@@ -18,6 +18,8 @@ title: Python Packaging Training
 - [Package management]({{ "/packages/management" | relative_url }})
 - [Django package vs. Python libraries]({{ "/overview" | relative_url }})
 - [Versioning]({{ "/versioning" | relative_url }})
-- [(Advanced) Packaging a Web Application]({{ "/advanced/packaging-web-applications" | relative_url }})
-- [(Advanced) Publicly Distributing a Package via PyPi]({{ "/advanced/publicly-distributing-packages" | relative_url }})
-- [(Advanced) Privately Distributing a Package]({{ "/advanced/privately-distributing-packages" | relative_url }})
+
+## Advanced
+- [Packaging a Web Application]({{ "/advanced/packaging-web-applications" | relative_url }})
+- [(Optional) Publicly Distributing a Package via PyPi]({{ "/advanced/publicly-distributing-packages" | relative_url }})
+- [(Optional) Privately Distributing a Package]({{ "/advanced/privately-distributing-packages" | relative_url }})
