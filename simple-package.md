@@ -46,6 +46,8 @@ setup(
 )
 ```
 
+[Let's take a moment to look at the version number in your `setup.py`...]({{ "versioning" | relative_url }})
+
 According to this file, we are distributing a package `helloworld`. We will create that package with a little bit of source code.
 
 ```terminal

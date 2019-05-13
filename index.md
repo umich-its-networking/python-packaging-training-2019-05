@@ -12,10 +12,9 @@ title: Python Packaging Training
 - [Introduction]({{ "/introduction" | relative_url }})
 - [pip install]({{ "/pip-install" | relative_url }})
 - [virtualenv]({{ "/venv" | relative_url }})
-- [A Simple Package]({{ "/simple-package" | relative_url }})
 - [Pipenv]({{ "/pipenv" | relative_url }})
+- [A Simple Package]({{ "/simple-package" | relative_url }})
 - [Django package vs. Python libraries]({{ "/overview" | relative_url }})
-- [Versioning]({{ "/versioning" | relative_url }})
 
 ## Advanced
 - [Packaging a Web Application]({{ "/advanced/packaging-web-applications" | relative_url }})
