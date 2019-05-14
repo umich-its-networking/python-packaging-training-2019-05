@@ -39,6 +39,18 @@ drwxr-xr-x  6 jonathoy  1410742483  192 May  8 13:56 content
 drwxr-xr-x  6 jonathoy  1410742483  192 May  8 13:56 mysite
 ```
 
+We'll go ahead and create a virtual environment and activate it:
+
+```terminal
+$ python3 -m venv venv
+m-c02xhhdqjg5j:django-tutorial jonathoy$ ls -l
+total 0
+drwxr-xr-x  6 jonathoy  1410742483  192 May 14 09:28 content
+drwxr-xr-x  6 jonathoy  1410742483  192 May 14 09:28 mysite
+drwxr-xr-x  6 jonathoy  1410742483  192 May 14 09:28 venv
+$ source venv/bin/activate
+```
+
 If you have taken the Django tutorial before, you might recall that the polls application was created with the following command:
 
 ```python
