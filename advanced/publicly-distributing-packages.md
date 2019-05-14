@@ -4,7 +4,7 @@ title: Publicly Distributing a Package Through PyPI
 
 PyPI is the official Python package repository. If we want to first experiment with uploading to a test repository so we don't affect the main index, we can push instead to [test.pypi](https://test.pypi.org/)
 
-To do this, first you will need to create an account for [Test PyPi](https://test.pypi.org/account/register/)
+To do this, first you will need to create an account for [Test PyPI](https://test.pypi.org/account/register/)
 
 There are several tools that allow you to interact with PyPI. For our purposes, we'll be using [Twine](https://github.com/pypa/twine):
 
@@ -66,7 +66,7 @@ Installing collected packages: tqdm, chardet, idna, certifi, urllib3, requests, 
 Successfully installed Pygments-2.4.0 bleach-3.1.0 certifi-2019.3.9 chardet-3.0.4 docutils-0.14 idna-2.8 pkginfo-1.5.0.1 readme-renderer-24.0 requests-2.21.0 requests-toolbelt-0.9.1 six-1.12.0 tqdm-4.31.1 twine-1.13.0 urllib3-1.24.3 webencodings-0.5.1
 ```
 
-Now we can upload the distribution(s) to Test PyPi:
+Now we can upload the distribution(s) to Test PyPI:
 
 ```terminal
 $ python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*

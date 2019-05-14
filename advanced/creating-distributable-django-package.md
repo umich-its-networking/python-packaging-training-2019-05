@@ -23,7 +23,7 @@ Installing collected packages: pip, setuptools
 Successfully installed pip-19.1.1 setuptools-41.0.1
 ```
 
-Now let's package the application up based on what we have in `setup.py`:
+Now let's package the application up based on what we have in `setup.py`. Remember that we have specified a version number of 0.1 for our project:
 
 ```terminal
 $ python setup.py sdist
@@ -105,4 +105,7 @@ Installing collected packages: django-polls
 Successfully installed django-polls-0.1
 ```
 
-Success!! Now what if [I want to make this publicly accessible to others]({{ "/advanced/publicly-distributing-packages/" | relative_url }})?
+Success!! If we make any changes to our package, we'll want to [update the version]({{ "/versioning" | relative_url }}) in `setup.py` and repeat the steps above to create a new distribution
+
+
+Now what if [I want to make this publicly accessible to others]({{ "/advanced/publicly-distributing-packages/" | relative_url }})?
