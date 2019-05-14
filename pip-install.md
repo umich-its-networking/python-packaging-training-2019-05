@@ -26,7 +26,7 @@ $ python3 -m pip --version
 pip 19.0.2 from /usr/local/lib/python3.7/site-packages/pip (python 3.7)
 ```
 
-If you can only access `pip` via `python -m pip`, that is no problem. Simply replace the `pip3` commands in this section with that from here on out.
+If you can only access `pip` via `python3 -m pip`, that is no problem. Simply replace the `pip3` commands in this section with that from here on out.
 
 Already it is apparent that users may have different Python installations with different versions of packages, such as `pip`. Let's come back to that later.
 
