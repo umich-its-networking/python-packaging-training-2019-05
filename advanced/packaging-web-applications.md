@@ -57,7 +57,11 @@ drwxr-xr-x  2 jonathoy  1410742483   64 May  8 13:57 django-polls
 drwxr-xr-x  6 jonathoy  1410742483  192 May  8 13:56 mysite
 ```
 
-For our application, we should create a README with some basic instructions for how the app should be installed and configured
+Next, we'll need to add some basic files to our package so that it fits the conventional structure. For the sake of simplicity, these files have already been created for you in the [Github repository](https://github.com/jonathoy/django-tutorial.git) that you cloned earlier so for the purposes of this tutorial we'll just need to move them into the proper directories
+
+You can modify these files as needed for your own application
+
+First, we should create a README with some basic instructions for how the app should be installed and configured
 
 ```terminal
 $ cd django-polls
@@ -68,7 +72,7 @@ total 8
 drwxr-xr-x  12 jonathoy  1410742483  384 May  8 13:56 polls
 ```
 
-We should also add a LICENSE. [choosealicense.com](https://choosealicense.com/) can help with that
+Second, we'll add a LICENSE. [choosealicense.com](https://choosealicense.com/) can help with that
 
 ```terminal
 $ cp ../content/LICENSE ./
@@ -79,7 +83,7 @@ total 16
 drwxr-xr-x  12 jonathoy  1410742483   384 May  8 13:56 polls
 ```
 
-Now we can create the setup.py file, as we did previously for the [simple package tutorial]({{ "simple-package" | relative_url }}). Recall that the `setup.py` file contains metadata on how to build and install the app
+Now we need to create the setup.py file as we did previously for the [simple package tutorial]({{ "simple-package" | relative_url }}). Recall that the `setup.py` file contains metadata on how to build and install the app
 
 ```terminal
 $ cp ../content/setup.py ./
@@ -109,4 +113,4 @@ recursive-include polls/static *
 recursive-include polls/templates *
 ```
 
-That's that basic structure that we need to create a package! If we want to share it with others, [we should build it as a distribution...]({{ "/advanced/creating-distributable-django-package" | relative_url }})
+That's that basic structure that we need to create a package! Now if we want to share it with others, [we should build it as a distribution...]({{ "/advanced/creating-distributable-django-package" | relative_url }})
