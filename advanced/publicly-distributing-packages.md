@@ -103,4 +103,4 @@ $ python -m twine upload dist/*
 $ pip install django-polls
 ```
 
-Done! What if [I don't want to share my package publicly]({{ "/advanced/privately-distributing-packages" }})?
+Done! What if [I don't want to share my package publicly]({{ "/advanced/privately-distributing-packages" | relative_url }})?
