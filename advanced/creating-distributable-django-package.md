@@ -4,7 +4,7 @@ title: Creating a distributable Django application
 
 We've learned that `pip` can install packages from source code if the format is correct, but if we want to push this to a package repository we will want to build it a distribution (for instance as a `tar.gz`)
 
-To do this, we'll be using [setuptools](https://setuptools.readthedocs.io/en/latest/). This next step is optional, but for good measure we may want to go ahead and update it to latest version:
+To do this, we'll be using [setuptools](https://setuptools.readthedocs.io/en/latest/). This next step is optional, but for good measure we may want to go ahead and update it to the latest version:
 
 ```terminal
 $ python -m pip install --upgrade pip setuptools
@@ -23,7 +23,7 @@ Installing collected packages: pip, setuptools
 Successfully installed pip-19.1.1 setuptools-41.0.1
 ```
 
-Now let's package the application up based on what we have in `setup.py`. Remember that we have specified a version number of 0.1 for our project:
+Now let's package the application up based on what we have in `setup.py`. Remember that we have specified a version number of `0.1` for our project:
 
 ```terminal
 $ python setup.py sdist
@@ -92,7 +92,7 @@ total 16
 -rw-r--r--  1 jonathoy  1410742483  5789 May  8 14:12 django-polls-0.1.tar.gz
 ```
 
-.. and try to install it
+.. and try to install it from the tarball
 
 ```terminal
 $ pip install --user dist/django-polls-0.1.tar.gz
